@@ -1,0 +1,191 @@
+/*CSS Resets*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Colors*/
+:root{
+    --black:#000000;
+    --grey:#808080;
+}
+
+/*Container*/
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 32px;
+}
+
+/*Flex*/
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-30{
+    height: 200px;
+    flex:0 1 25%;
+}
+
+img{
+    border-radius: 4px;
+}
+
+/*Generalized*/
+
+.body{
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/*Header*/
+
+.header{
+    padding:20px 0;
+    text-align: center;
+}
+
+.heading{
+    font-size: 2rem;
+    color:var(--black);
+    margin-bottom: 1rem;
+}
+
+.tag-line{
+    font-size: 1rem;
+    color: var(--grey);
+    font-style: italic;
+}
+
+
+
+/*Description*/
+.band-description{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/*Band Members*/
+
+.band-member{
+    margin: 50px 0;
+}
+
+.name{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+
+
+/*About Page*/
+
+.subject{
+    font-size:1.5rem;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+
+.from{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.btn{
+    padding:8px 30px;
+}
+
+
+.about-desc{
+    margin: 10px 0;
+    font-optical-sizing: 1.2rem;
+}
+
+.regards{
+    font-weight: 500;
+}
+
+
+/*Contact Page*/
+
+.form-outer{
+    margin-top: 40px;
+}
+
+input{
+    display: block;
+    padding: 1rem  2rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+}
+
+
+
+
+
+
